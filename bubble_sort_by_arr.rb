@@ -22,4 +22,4 @@ end
 
 greetings = ["hi", "hello", "hey"]
 
-print bubble_sort_by(greetings) { | left,right | left.length - right.length }
+print bubble_sort_by(greetings){ | left,right | left.length - right.length }
